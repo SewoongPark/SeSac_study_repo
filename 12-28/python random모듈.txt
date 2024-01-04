@@ -1,0 +1,10 @@
+python random모듈
+-난수 생성을 위한 모듈
+
+import random
+random.random()
+ri = random.randint(0, 100) #시작, 끝 범위에서 난수 생성(정수)
+ru = random.uniform(0, 100.0) #시작, 끝 범위에서 난수 생성(실수)
+rrange = random.randrange(1, 100, 2) # 시작, 끝, 간격
+s = random.seed(a = ri, version=2)
+
