@@ -4,7 +4,8 @@
 * **함수 및 클래스**
     * 아직 사용이 익숙하지 않은 두 method를 연습해 볼 필요성을 느끼게 됨
 * **k-menas 클러스터링**
+  
 * 가설 검정 도구:
   * **T-test, chi-square test, F-test**
 * **T-test와 Chi-square test 클래스 구현**
-* **K-means 클러스터링**
+
