@@ -1,0 +1,27 @@
+/* 스타일을 별도의 파일로 분리 */
+.container {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .icon {
+    height: 100px;
+  }
+  
+  table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
