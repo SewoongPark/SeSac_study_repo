@@ -1,0 +1,72 @@
+[
+    {
+        "city_mpg": 15,
+        "class": "standard pickup truck",
+        "combination_mpg": 16,
+        "cylinders": 6,
+        "displacement": 3.4,
+        "drive": "rwd",
+        "fuel_type": "gas",
+        "highway_mpg": 18,
+        "make": "toyota",
+        "model": "tundra 2wd",
+        "transmission": "a",
+        "year": 2000
+    },
+    {
+        "city_mpg": 15,
+        "class": "standard pickup truck",
+        "combination_mpg": 16,
+        "cylinders": 6,
+        "displacement": 3.4,
+        "drive": "rwd",
+        "fuel_type": "gas",
+        "highway_mpg": 18,
+        "make": "toyota",
+        "model": "tundra 2wd",
+        "transmission": "m",
+        "year": 2000
+    },
+    {
+        "city_mpg": 14,
+        "class": "standard pickup truck",
+        "combination_mpg": 15,
+        "cylinders": 8,
+        "displacement": 4.7,
+        "drive": "rwd",
+        "fuel_type": "gas",
+        "highway_mpg": 17,
+        "make": "toyota",
+        "model": "tundra 2wd",
+        "transmission": "a",
+        "year": 2000
+    },
+    {
+        "city_mpg": 14,
+        "class": "standard pickup truck",
+        "combination_mpg": 15,
+        "cylinders": 6,
+        "displacement": 3.4,
+        "drive": "awd",
+        "fuel_type": "gas",
+        "highway_mpg": 16,
+        "make": "toyota",
+        "model": "tundra 4wd",
+        "transmission": "a",
+        "year": 2000
+    },
+    {
+        "city_mpg": 14,
+        "class": "standard pickup truck",
+        "combination_mpg": 15,
+        "cylinders": 6,
+        "displacement": 3.4,
+        "drive": "awd",
+        "fuel_type": "gas",
+        "highway_mpg": 16,
+        "make": "toyota",
+        "model": "tundra 4wd",
+        "transmission": "m",
+        "year": 2000
+    }
+]
