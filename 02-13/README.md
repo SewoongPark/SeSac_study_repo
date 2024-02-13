@@ -10,7 +10,7 @@
         
         > * 경사하강법: 딥러닝 알고리즘 학습 시 목표는 예측값과 정답값 간의 차이인 손실 함수의 크기를 최소화시키는 파라미터를 찾는 것
 
-        <img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd0DKa4%2FbtrCKjA6dHH%2FKd6HN8fi77eYBUOkQQd0q1%2Fimg.png" style = "width: 30%;">
+        <img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd0DKa4%2FbtrCKjA6dHH%2FKd6HN8fi77eYBUOkQQd0q1%2Fimg.png">
 
 ### **훈련 데이터와 테스트 데이터**
 
