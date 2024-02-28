@@ -20,7 +20,7 @@
 
 [아이슬란드 화산: 한 달 만에 또 폭발...용암이 주택가 집어삼켜 - BBC News 코리아](https://www.bbc.com/korean/articles/cv2d7390rv4o)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/15c3acb8-87af-40e5-a830-d7a234031660/f380504f-8c11-4c3b-b922-c29e946e1632/Untitled.png)
+<img src = "https://prod-files-secure.s3.us-west-2.amazonaws.com/15c3acb8-87af-40e5-a830-d7a234031660/f380504f-8c11-4c3b-b922-c29e946e1632/Untitled.png">
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/15c3acb8-87af-40e5-a830-d7a234031660/e72cb05a-a690-4d78-a533-4c2f30f96674/Untitled.png)
 
