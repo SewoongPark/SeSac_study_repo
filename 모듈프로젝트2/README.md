@@ -17,4 +17,7 @@ reshape (행 4000) 4000 * 32 * 32 4000 *1 *7 -> 4000 1 7 1 -> tile 4000 1 32 32<
 32는 7의 배수가 아님 35까지 만들고 slicing<br>
 4000 1 32 1 tile 4000 35 35 1  tile or zero padding 4000 35 35 3 index로 slicing<br>
 
+`transfer_network_experiment_02.py`:
+* num_ftr(feature)수를 2배로 (512 -> 1024)로 늘렸더니 sota 찍음
+
 ![image](https://github.com/SewoongPark/SeSac_study_repo/assets/98893325/13c9a788-5fcf-40e6-8b73-2c706b82c077)
