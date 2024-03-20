@@ -19,8 +19,8 @@
 ---
 
 ### **Model serving**
-> FastAPI는 빠른 속도(flask에 비해 어려운 난이도)
-> framework별 속도 비교
+> FastAPI는 빠른 속도(flask에 비해 어려운 난이도)<br>
+> Framework별 속도 비교해보기
 
 ### 분산 처리 반드시 해보기
 * GPU 병렬 처리
