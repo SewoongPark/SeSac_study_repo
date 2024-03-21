@@ -207,12 +207,11 @@
 
 * **ConvolutionNetwork(FC layer) experiment**
 
-        - 기존의 Resnet보다 더 뛰어난 성능을 보였습니다.
-        - grid search와 scheduler 사용은 유지한 채로 network만 변경해서 성능을 비교하고자 했습니다. 
-        - train과 test loader의 shape도 동일합니다.
-        - stretch된 데이터에 대해 학습을 진행했습니다.
-        
-        - 설계:
+- 기존의 Resnet보다 더 뛰어난 성능을 보였습니다.
+- grid search와 scheduler 사용은 유지한 채로 network만 변경해서 성능을 비교하고자 했습니다. 
+- train과 test loader의 shape도 동일합니다.
+-  stretch된 데이터에 대해 학습을 진행했습니다.
+  - 설계:
             - Conv1D, Conv2D, fc_layer1 + fc_layer2
             - Grid search 수행 후
   '''
