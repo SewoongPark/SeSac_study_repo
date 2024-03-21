@@ -18,28 +18,6 @@
 * (Age): 나이 (세)
 * (Outcome): 클래스 변수 (0 또는 1), 768 중 268은 1이고 나머지는 0입니다.
 
-
-## **Pima Indians Diabetes Classification**
-
-### 목표: 딥러닝 모델로 머신러닝의 정형 데이터 classification 성능 앞서기
-##### 가제: 다양한 특성에 따라 환자가 당뇨병에 취약한지를 분류/예측
-
-- 머신러닝과 딥러닝 모델의 차이점은 정형 데이터 분석 가능 유무에 있습니다.
-- 대부분의 연구에서 정형 데이터에 대한 prediction과 classification은 머신러닝에서 수행됩니다.  
-- 저희 팀의 프로젝트는 딥러닝 학습에서 가능한 한 많은 경우의 수를 적용해보면서 정형 데이터를 분석하고 **기존 SOTA인 XGBoost 성능을 앞지르는 Deep Neural network를 구성해보는 것이 목표입니다.**
-
-**데이터 셋 기술**
-* (Pregnancies): 임신한 횟수
-* (Glucose): 경구 글루코스 내성 실험에서 2시간 후의 혈장 글루코스 농도
-* (BloodPressure): 이완기 혈압 (mm Hg)
-* (SkinThickness): 삼두근 피부 주름 두께 (mm)
-* (Insulin): 2시간 혈청 인슐린 (mu U/ml)
-* BMI: 체질량 지수 (체중(kg) / (신장(m))^2)
-* (DiabetesPedigreeFunction): 당뇨병 혈통 기능
-* (Age): 나이 (세)
-* (Outcome): 클래스 변수 (0 또는 1), 768 중 268은 1이고 나머지는 0입니다.
-
-
 ---
 
 
