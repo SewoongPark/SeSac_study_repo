@@ -41,10 +41,10 @@
         -- 최초 시도 시에는 channel의 수를 1로 지정하여 gray scale의 이미지 형식으로 처리했습니다.<br> 
         
         - **예측 결과**<br>
-            experiment 1)<br>
+           - experiment 1)<br>
             - 1 channel에 대해 진행: **[64, 1, 32, 32]**
              - `Epoch 10/10, Loss: 0.3638, Accuracy: 0.6883`
-
+           - experiment 2) <br>
             -  3 channel에 대해 진행: **[64, 3, 32, 32]**
                 - `Epoch 10/10, Loss: 0.3455, Accuracy: 0.7273`
 
