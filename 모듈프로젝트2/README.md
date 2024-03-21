@@ -90,7 +90,7 @@
         'learning_rate': 0.1,
         'momentum': 0.95,
         'dropout_rate': 0.1}
-```
+
 ------------------------------------------------------------
 
 ### Convolution Network(FC layer) experiment
