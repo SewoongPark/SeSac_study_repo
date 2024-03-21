@@ -196,6 +196,7 @@
     - 변경 사항: grid search 수행, CosineAnnealingLearningRate scheduler 사용
     - stretch 기법 사용
     - XGboost 뛰어 넘은 parameter tuning (Grid search):
+        ``` 
         Best accuracy: 0.8052, Best hyperparameters: 
         {'optimizer': 'Adam',
         'batch_size': 128,
@@ -212,11 +213,10 @@
  -  stretch된 데이터에 대해 학습을 진행했습니다.
 
 - 설계:
-            - Conv1D, Conv2D, fc_layer1 + fc_layer2
-            - Grid search 수행 후
-
-  '''
-      params:
+  - Conv1D, Conv2D, fc_layer1 + fc_layer2
+  - Grid search 수행 후
+```
+params:
             { Optimizer: Adam,
             Batch Size: 128,
             Learning Rate: 0.001,
@@ -225,10 +225,10 @@
             Epoch 10/10, 
             Loss: 0.4435,
             Accuracy: 0.8125 }
-
+```
     - 특히 활성화 함수 RMSprop은 loss가 대량으로 잡혔기 때문에 early stopping 했습니다.
     
-    - **FC layer 2차 실험**
+- **FC layer 2차 실험**
      
      - 변경 사항: label벡터를 OnehotEncoding하고 array로 변환했습니다.
         - `pd.get_dummies()`했을 때 각 클래스마다 True, False로 할당된 값을 `.astype(int)`로 변경해서 0과 1의 int 값을 갖도록 변경
