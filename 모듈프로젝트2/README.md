@@ -205,7 +205,7 @@
 
 ------------------------------------------------------------
 
-    --- ConvolutionNetwork(FC layer) experiment ---
+* **ConvolutionNetwork(FC layer) experiment**
 
         - 기존의 Resnet보다 더 뛰어난 성능을 보였습니다.
         - grid search와 scheduler 사용은 유지한 채로 network만 변경해서 성능을 비교하고자 했습니다. 
@@ -215,6 +215,7 @@
         - 설계:
             - Conv1D, Conv2D, fc_layer1 + fc_layer2
             - Grid search 수행 후
+  '''
             - params:
             { Optimizer: Adam,
             Batch Size: 128,
@@ -225,16 +226,24 @@
             Loss: 0.4435,
             Accuracy: 0.8125 }
 
-        - 특히 활성화 함수 RMSprop은 loss가 대량으로 잡혔기 때문에 early stopping 했습니다.
-
-    --- FC layer 2차 실험 ---
+    - 특히 활성화 함수 RMSprop은 loss가 대량으로 잡혔기 때문에 early stopping 했습니다.
+    
+    - **FC layer 2차 실험**
      
      - 변경 사항: label벡터를 OnehotEncoding하고 array로 변환했습니다.
-        - pd.get_dummies()했을 때 각 클래스마다 True, False로 할당된 값을 .astype(int)로 변경해서 0과 1의 int 값을 갖도록 변경
+        - `pd.get_dummies()`했을 때 각 클래스마다 True, False로 할당된 값을 `.astype(int)`로 변경해서 0과 1의 int 값을 갖도록 변경
         - dropout layer를 제거했습니다.
-     
-     - SOTA 달성
-        { Optimizer: Adam, Batch Size: 64, Learning Rate: 0.01, Momentum: 0.9,  Epoch 8/10, Loss: 0.4571, Accuracy: 0.8438 }
+
+
+- **SOTA 달성**
+```
+        { Optimizer: Adam,
+ Batch Size: 64,
+ Learning Rate: 0.01,
+ Momentum: 0.9,
+  Epoch 8/10,
+ Loss: 0.4571,
+ Accuracy: 0.8438 }
 
     ------------------------
 """
