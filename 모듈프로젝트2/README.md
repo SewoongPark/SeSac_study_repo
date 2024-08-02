@@ -124,14 +124,16 @@
         - dropout layer를 제거했습니다.
      
 - **SOTA 달성**
-        ```
-        { Optimizer: Adam,
-          Batch Size: 64,
-          Learning Rate: 0.01,
-          Momentum: 0.9,
-          Epoch 8/10,
-          Loss: 0.4571,
-          Accuracy: 0.8438 }
+
+```
+{ Optimizer: Adam,
+  Batch Size: 64,
+  Learning Rate: 0.01,
+  Momentum: 0.9,
+  Epoch 8/10,
+  Loss: 0.4571,
+  Accuracy: 0.8438 }
+``` 
 
 ---
 
